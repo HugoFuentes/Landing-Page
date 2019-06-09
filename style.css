@@ -1,0 +1,43 @@
+#body { background-color: #FF0000; 
+}
+
+/* mobile first */
+body {
+  font-size: 14px;
+}
+
+/* tabletas */
+@media (min-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+.nav{
+	background-color: black;
+}
+.right{ 
+    float: right;
+
+}
+
+#navbarBasicExample {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
